@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Categories from '../views/Categories.vue'
 import Detail from '../views/Detail.vue'
-import Hystory from '../views/Hystory.vue'
+import History from '../views/Hystory.vue'
 import Planning from '../views/Planning.vue'
 import Profile from '../views/Profile.vue'
 import Record from '../views/Record.vue'
@@ -40,10 +40,10 @@ const routes = [
   }
   ,
   {
-    path: '/hystory',
-    name: 'hystory',
+    path: '/history',
+    name: 'history',
     meta: {layout: 'main'},
-    component: Hystory
+    component: History
   }
   ,
   {
